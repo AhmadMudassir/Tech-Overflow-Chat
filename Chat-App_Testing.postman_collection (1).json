@@ -12,14 +12,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/rooms",
-					"protocol": "http",
+					"raw": "{{url}}rooms",
 					"host": [
-						"localhost"
-					],
-					"port": "8000",
-					"path": [
-						"rooms"
+						"{{url}}rooms"
 					]
 				}
 			},
@@ -35,35 +30,30 @@
 					"formdata": [
 						{
 							"key": "name",
-							"value": "Ahmad",
+							"value": "Sameer",
 							"type": "text"
 						},
 						{
 							"key": "email",
-							"value": "Ahmad@gmail.com",
+							"value": "sameer@gmail.com",
 							"type": "text"
 						},
 						{
 							"key": "password",
-							"value": "ahmad",
+							"value": "sameer",
 							"type": "text"
 						},
 						{
 							"key": "picture",
 							"type": "file",
-							"src": "/C:/Users/Ahmad/Desktop/OBITO D. ARK MANAGER/21 march AOO/index.png"
+							"src": "/C:/Users/DELL/Downloads/zoro.png"
 						}
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8000/users",
-					"protocol": "http",
+					"raw": "{{url}}users",
 					"host": [
-						"localhost"
-					],
-					"port": "8000",
-					"path": [
-						"users"
+						"{{url}}users"
 					]
 				}
 			},
@@ -76,7 +66,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \r\n\"email\":\"Bilal@gmail.com\",\r\n\"password\":\"bilal\"\r\n\r\n}",
+					"raw": "{\r\n    \r\n\"email\":\"Ahmad@gmail.com\",\r\n\"password\":\"ahmad\"\r\n\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -84,14 +74,11 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/users/login",
-					"protocol": "http",
+					"raw": "{{url}}users/login",
 					"host": [
-						"localhost"
+						"{{url}}users"
 					],
-					"port": "8000",
 					"path": [
-						"users",
 						"login"
 					]
 				}
