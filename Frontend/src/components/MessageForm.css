@@ -1,34 +1,47 @@
 /* .main{s */
-    /* background-image: url("https://techoverflow.io/wp-content/uploads/2022/05/12-1.png"); */
+/* background-image: url("https://techoverflow.io/wp-content/uploads/2022/05/12-1.png"); */
 /* background-image: url("../assets/tech_over_flow2.png"); */
 /* background-color: rgb(111, 111, 212); */
 /* background-repeat: no-repeat; */
-  /* background-attachment: fixed; */
-  /* background-position:center;  */
+/* background-attachment: fixed; */
+/* background-position:center;  */
 /* background-size: 20vmax; */
 /* } */
 /* .now{
     position: fixed;
 } */
 
-.enter_message{
+.enter_message {
     margin-bottom: 20px;
+    align-items: flex-end;
+}
+
+.mainChatBoxContainerParent {
+    margin-top: 10px;
+    position: relative;
+}
+
+.for-position {
+    position: absolute;
+    top: calc(100% + 2rem);
+    left: 0;
+    width: 100%;
 }
 
 .messages-output {
     height: 76vh;
-background-image: url("../assets/tech_over_flow2.png");
-/* background-color: #f7f7f7; */
-background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position:center; 
-  /* background-size: 20vmax; */
-  background-size: 70%;
+    /* position: sticky; */
+    /* background-image: url("../assets/tech_over_flow2.png"); */
+    background-color: #f7f7f7;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 70%;
     border: 1px solid lightgray;
     overflow-y: scroll;
     margin-bottom: 20px;
 }
-  
+
 .message-inner {
     margin-left: 20px;
     margin-bottom: 10px;
@@ -39,26 +52,26 @@ background-repeat: no-repeat;
     /* min-height: 80px; */
     font: 400 1em, sans-serif;
     display: inline-block;
- 
+
 }
 
 .message-inner .message-content {
-       border-radius: 5px;
-       padding: 3px 10px;
-       background-color: #d1e7dd;
+    border-radius: 5px;
+    padding: 3px 10px;
+    background-color: #d1e7dd;
     /* margin-bottom: 20px; */
 
 }
 
-.incoming-message .message-inner  .message-content{
-    
+.incoming-message .message-inner .message-content {
+
     background-color: #ffdab9;
 }
 
 .incoming-message {
     display: flex;
     justify-content: flex-end;
-    
+
     margin-right: 20px;
 }
 

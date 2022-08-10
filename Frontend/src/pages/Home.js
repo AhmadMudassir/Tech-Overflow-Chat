@@ -5,7 +5,7 @@ import "./Home.css";
 
 function Home() {
     return (
-        <Row>
+        <Row className="my-slider">
             <Col md={6} className="d-flex flex-direction-column align-items-center justify-content-center">
                 <div>
                 <h2>Welcome to Tech Overflow Chat system</h2>
